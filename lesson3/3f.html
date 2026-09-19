@@ -1,0 +1,79 @@
+<!---challenge excercise
+continuing from excercise 2f recreate this design using css
+the buttons should change colors when hovered over them
+the buttons should be cliackable and should have a cursor pointer when hovered over them
+use css propertied color, font-size, font-weight-->
+<!---create a paragraph below the previous paragraph and write something you did today-->
+
+<style>
+    .amazon-link{
+        color:aqua;
+        cursor:pointer;
+    }
+    .amazon-link:hover{
+        color:orange;
+    }
+
+    .title{
+        font-weight:bold;
+        font-size:20px;
+        cursor:pointer;
+    }
+
+    .price{
+        font-weight:bold;
+        color:green;
+        cursor:pointer;
+    }
+
+    .addtocart{
+        background-color: yellow;
+        color:black;
+        height:30px;
+        width:200px;
+        cursor:pointer;
+        border: none;
+        margin-right: 8px;
+        border-radius: 50px;
+    }
+
+    .addtocart:hover{
+        background-color:orange;
+        color:black;
+    }
+
+     .addtocart:active {
+        opacity: 0.10;
+    }
+
+    .buynow{
+        background-color: orange;
+        color:black;
+        height:30px;
+        width:200px;
+        cursor:pointer;
+        border: none;
+        margin-right: 8px;
+        border-radius: 50px;
+    }
+
+    .buynow:hover{
+        background-color:yellow;
+        color:black;
+    }
+
+    .buynow:active {
+        opacity: 0.10;
+    }
+
+</style>
+
+<a class="amazon-link" href="https://www.amazon.com">Back To Amazon</a>
+<p class="title">Nike Black Running Shoes</p>
+<p class="price">$39 - in stock.</p>
+<p>Free delivery tomorrow.</p>
+<button class="addtocart">Add To Cart</button>
+<button class="buynow">Buy Now</button>
+
+
+

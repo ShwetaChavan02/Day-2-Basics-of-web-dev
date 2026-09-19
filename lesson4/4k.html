@@ -1,0 +1,32 @@
+<!---recreate using box model
+margin and padding together -->
+
+<style>
+
+  .stretch{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: padding 0.20s,
+      margin 0.20s;
+  }
+
+  .stretch:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+</style>
+
+<button class="stretch">One</button>
+<button class="stretch">Two</button>
+<button class="stretch">Three</button>
